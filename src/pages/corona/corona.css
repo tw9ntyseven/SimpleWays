@@ -1,0 +1,80 @@
+.coronaWrapper {
+    margin: 70px 0 0 20px;
+}
+.coronaSubtitle {
+    font-size: 24px;
+}
+.coronaCardWrapper {
+    display: flex;
+}
+.coronaCard {
+    padding-top: 10px;
+    text-align: center;
+    max-width: 315px;
+    min-width: 315px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px;
+    background: #EAECEA;
+    -webkit-box-shadow: 2px 2px 15px 0.5px #ccc;
+    -moz-box-shadow: 2px 2px 15px 0.5px #ccc;
+    box-shadow: 2px 2px 15px 0.5px #ccc;
+    transition: .5s linear;
+}
+.coronaCard2 {
+    width: 370px;
+    height: 100%;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.coronaCard3 {
+    width: 100%;
+    margin: 0 0px;
+    padding-right: 17px;
+}
+.coronaCard:active {
+    height: auto;
+}
+.coronaIcon{
+    font-size: 36px;
+    color: #46bed6;
+    padding-right: 30px;
+
+}
+.coronaCardTitle {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.coronaCardSubtitle {
+    font-size: 18px;
+    padding: 5px 75px 0 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+@media screen and (max-width: 1080px) {
+    .coronaTitle {
+        font-size: 26px;
+    }
+    .coronaSubtitle {
+        font-size: 20px;
+    }
+    .coronaCardWrapper {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 375px) {
+    .coronaCardWrapper {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 320px) {
+    .coronaTitle {
+        font-size: 16px;
+    }
+    .coronaSubtitle {
+        font-size: 14px;
+    }
+}

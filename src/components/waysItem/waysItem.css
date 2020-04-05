@@ -1,0 +1,110 @@
+.waysItemWrapper {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+}
+.waysItem {
+    width: 93% auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px 0 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 15px 0.5px #ccc;
+    -moz-box-shadow: 2px 2px 15px 0.5px #ccc;
+    box-shadow: 2px 2px 15px 0.5px #ccc;
+}
+.waysItemNumber {
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.waysItemTitle {
+    font-weight: 700;
+    font-size: 20px;
+}
+.waysItemBtnBlock {
+    text-align: right;
+}
+.waysItemBtnMap {
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #E66A08;
+    margin-right: 10px;
+    transition: .5s;
+}
+.waysItemBtnMap:hover {
+    background: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 1080px) {
+    .waysItemWrapper {
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .waysItem {
+        height: 60px;
+    }
+    .waysItemNumber {
+        font-size: 18px;
+    }
+    .waysItemTitle {
+        font-size: 14px;
+    }
+    .waysItemBtnBlock {
+        display: flex;
+    }
+    .waysItemBtnMap {
+        font-size: 12px;
+        margin-right: 5px;
+        margin-left: 20px;
+        width: 70px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .waysItemNumber {
+        font-size: 18px;
+    }
+    .waysItemTitle {
+        font-size: 14px;
+    }
+    .waysItemBtnBlock {
+        display: flex;
+        justify-content: space-between;
+        position: initial;
+        margin-left: 15px;
+    }
+    .waysItemBtnMap {
+        font-size: 12px;
+        margin-right: 5px;
+        width: 70px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .waysItem {
+        margin-bottom: 5px;
+    }
+    .waysItemTitle {
+        font-size: 12px;
+    }
+    .waysItemBtnMap {
+        width: 65px;
+        height: 40px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    .waysItemNumber {
+        margin-right: 5px;
+    }
+}

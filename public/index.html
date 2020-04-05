@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru_RU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1c80c4b3-7cec-4d86-8f33-0c2061e5f814&lang=ru_RU" type="text/javascript"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <script type="text/javascript">
+      ymaps.ready(init);
+      function init(){
+          var myMap = new ymaps.Map("map", {
+              center: [44.948314, 34.100156],
+              zoom: 12
+          });
+      }
+  </script>
+    <title>SimpleWays</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

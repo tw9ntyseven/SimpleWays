@@ -1,0 +1,93 @@
+.sign-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  width: 95%;
+  height: 95vh;
+  border: 1px solid #C4C4C4;
+  border-radius: 15px;
+  }
+  .sign-form {
+    margin-top: 50px;
+  width: 63%;
+  height: 95%;
+  }
+  .sign-form_title {
+    font-size: 40px;
+  }
+  .sign-form_subtitle {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .login {
+    margin-bottom: 15px;
+  }
+  .sign-form_buttons {
+    margin-top: 5px;
+  }
+  .sign-form_add {
+    position: relative;
+    right: 150px;
+    text-decoration: none;
+    color: #2C929F;
+  }
+  .sign-button {
+    position: relative;
+    left: 125px;
+  }
+  @media screen and (max-width: 1080px) {
+    .sign-form {
+      width: 500px;
+    }
+    .sign-form_title {
+      font-size: 30px;
+    }
+    .sign-form_subtitle {
+      font-size: 16px;
+    }
+    .sign-form_add {
+      font-size: 14px;
+      right: 65px;
+    }
+    .sign-button {
+      left: 65px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .sign-form_title {
+      font-size: 30px;
+    }
+    .sign-form_subtitle {
+      font-size: 16px;
+    }
+    .sign-form_add {
+      font-size: 14px;
+      right: 65px;
+    }
+    .sign-button {
+      left: 65px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .sign-form_title {
+      font-size: 28px;
+    }
+    .sign-form_subtitle {
+      font-size: 14px;
+    }
+    .sign-form_add {
+      top: -10px;
+      right: 45px;
+    }
+    .sign-button {
+      top: -5px;
+      left: 47px;
+    }
+  }
