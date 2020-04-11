@@ -20,12 +20,6 @@ function Home() {
                 <div className="wrapper-slideshow">
                     <Tabs>
                         <TabPanel className="slideshow">
-                            <CSSTransition
-                                in={Tabs}
-                                appear={true}
-                                timeout={300}
-                                classNames="fade"
-                                unmountOnExit>
                                 <div className="slide">
                                     <i className="far fa-map icon-map"></i>
                                     <div className="slide-text">
@@ -48,11 +42,9 @@ function Home() {
                                         <a href="/maps" className="slide-route">перейти к карте &#10095;</a>
                                     </div>
                                 </div>
-                            </CSSTransition>
                         </TabPanel>
 
                         <TabPanel>
-                            <CSSTransition in={Tabs} appear={true} timeout={300} classNames="fade">
                                 <div className="slide-wrapper">
                                     <div className="slide">
                                         <i className="fas fa-bus icon-map"></i>
@@ -77,11 +69,9 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </CSSTransition>
                         </TabPanel>
 
                         <TabPanel>
-                            <CSSTransition in={Tabs} appear={true} timeout={300} classNames="fade">
                                 <div className="slide">
                                     <i className="far fa-newspaper icon-map"></i>
                                     <div className="slide-text">
@@ -90,7 +80,6 @@ function Home() {
                                         <Link to="#" className="slide-route">перейти к новостям &#10095;</Link>
                                     </div>
                                 </div>
-                            </CSSTransition>
                         </TabPanel>
 
                         <TabList className="tablist">
