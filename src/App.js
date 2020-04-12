@@ -11,6 +11,7 @@ import ways from './pages/ways/ways';
 import Maps from './pages/maps/maps';
 import News from './components/news-shortcat/news';
 import Corona from './pages/corona/corona';
+import Footer from './components/footer/footer';
 
 function Home() {
     return (
@@ -76,7 +77,7 @@ function Home() {
                                     <i className="far fa-newspaper icon-map"></i>
                                     <div className="slide-text">
                                         <span className="slide-title">Новости</span>
-                                        <p className="slide-subtitle">Актуальные новости Крымкой республики</p>
+                                        <p className="slide-subtitle">Актуальные новости Крымcкой республики</p>
                                         <Link to="#" className="slide-route">перейти к новостям &#10095;</Link>
                                     </div>
                                 </div>
@@ -97,7 +98,7 @@ function Home() {
                 </div>
 
                 <News/>
-
+            <Footer />
             </div>
         </div>
     );

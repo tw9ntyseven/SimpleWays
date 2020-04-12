@@ -17,23 +17,23 @@ class HeadBar extends Component {
                     <div className="header-bar_menu">
                         <Link to="/" className="header-bar_logo">Simple<span style={{color: "#E66A08", fontWeight: "bold"}}>Ways</span></Link>
                         <a href="/maps">
-                            <i className="fas fa-map"></i>
+                            <i className="fas fa-map" style={{marginRight: '5px'}}></i>
                             Карта
                         </a>
                         <Link to="/ways">
-                            <i className="fas fa-bus"></i>
+                            <i className="fas fa-bus" style={{marginRight: '5px'}}></i>
                             Маршруты
                         </Link>
                         <Link to="#">
-                            <i className="far fa-newspaper"></i>
+                            <i className="far fa-newspaper" style={{marginRight: '5px'}}></i>
                             Новости
                         </Link>
                         <Link to="/corona">
-                        <i class="fas fa-virus"></i>
+                        <i class="fas fa-virus" style={{marginRight: '5px'}}></i>
                             О COVID-19
                         </Link>
                         <Link to="/sign" className="header-bar_button">
-                            <i className="fas fa-sign-in-alt"></i>
+                            <i className="fas fa-sign-in-alt" style={{marginRight: '5px'}}></i>
                             {this.state.text}
                         </Link>
                     </div>

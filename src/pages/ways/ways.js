@@ -14,6 +14,7 @@ import {
 } from 'antd';
 
 import WaysItem from '../../components/waysItem/waysItem';
+import Footer from '../../components/footer/footer';
 
 const { Option } = Select;
 
@@ -117,8 +118,8 @@ export class ways extends Component {
                             ]}
                          />
                     </div>
-
                 </div>
+                <Footer />
             </div>
         );
     }

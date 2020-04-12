@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './maps.css';
 import HeadBar from '../../components/header-bar/header-bar';
 
+import Footer from '../../components/footer/footer';
+
 class Maps extends Component {
     render() {
         return (
@@ -14,6 +16,7 @@ class Maps extends Component {
                     height: "100vh",
                     paddingTop: "50px"
                 }}></div>
+                <Footer />
             </div>
         );
     }

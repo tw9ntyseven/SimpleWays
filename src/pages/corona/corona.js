@@ -2,6 +2,7 @@ import React from 'react';
 import './corona.css';
 
 import HeadBar from '../../components/header-bar/header-bar';
+import Footer from '../../components/footer/footer';
 
 export const Corona = () => {
     return (
@@ -119,6 +120,7 @@ export const Corona = () => {
                     защиты для жителей вашего района.
                 </p>
             </div>
+            <Footer />
         </div>
     );
 }
