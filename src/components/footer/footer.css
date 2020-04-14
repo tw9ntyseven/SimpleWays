@@ -1,10 +1,12 @@
 .footer {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     width: 100%;
     height: 150px;
     background: #333;
     text-align: center;
+    overflow: hidden;
 }
 .footerLogo {
     text-align: center;
@@ -41,4 +43,23 @@
 }
 .footerSocialNetworksItem:hover {
     color: #46bed6;
+}
+@media screen and (max-width: 1080px) {
+    .footerLogo {
+        font-size: 16px;
+    }
+    .footerLinkItem {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .footerSocialNetworksItem {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .button {
+        font-size: 16px;
+        width: 60px;
+        height: 35px;
+    }
 }
