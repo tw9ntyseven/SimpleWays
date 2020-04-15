@@ -13,7 +13,7 @@ class Maps extends Component {
                     id="map"
                     style={{
                     width: "100%",
-                    height: "100vh",
+                    height: "95vh",
                     paddingTop: "50px"
                 }}></div>
                 <Footer />

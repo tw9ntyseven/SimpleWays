@@ -98,8 +98,8 @@ function Home() {
                 </div>
 
                 <News/>
-            <Footer />
             </div>
+            <Footer />
         </div>
     );
 }
