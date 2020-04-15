@@ -178,7 +178,7 @@ ul {
 .cards {
   display: flex;
 }
-/* @-webkit-keyframes scale-up-ver-bottom {
+@-webkit-keyframes scale-up-ver-bottom {
   0% {
     -webkit-transform: scaleY(0.4);
             transform: scaleY(0.4);
@@ -205,7 +205,7 @@ ul {
     -webkit-transform-origin: 0% 100%;
             transform-origin: 0% 100%;
   }
-} */
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -218,8 +218,8 @@ ul {
   background: #fff;
   border-radius: 15px;
   color: #000;
-	/* -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;transition: all .5s ease; */
+	 -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .icon {
   font-size: 36px;

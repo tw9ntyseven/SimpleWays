@@ -43,23 +43,23 @@ class HeadBar extends Component {
 
                 <Menu className="menu">
                     <Link to="/sign" className="bm-item">
-                        <i className="fas fa-sign-in-alt"></i>
+                        <i className="fas fa-sign-in-alt" style={{marginRight: '5px'}}></i>
                         {this.state.text}
                     </Link>
                     <a href="/maps">
-                        <i className="fas fa-map"></i>
+                        <i className="fas fa-map" style={{marginRight: '5px'}}></i>
                         Карта
                     </a>
                     <Link to="/ways">
-                        <i className="fas fa-bus"></i>
+                        <i className="fas fa-bus" style={{marginRight: '5px'}}></i>
                         Маршруты
                     </Link>
                     <Link to="#">
-                        <i className="far fa-newspaper"></i>
+                        <i className="far fa-newspaper" style={{marginRight: '5px'}}></i>
                         Новости
                     </Link>
                     <Link to="/corona">
-                        <i class="fas fa-virus"></i>
+                        <i class="fas fa-virus" style={{marginRight: '5px'}}></i>
                             О COVID-19
                         </Link>
                 </Menu>
