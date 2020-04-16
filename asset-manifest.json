@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SimpleWays/static/css/main.f3c45046.chunk.css",
-    "main.js": "/SimpleWays/static/js/main.c61e067d.chunk.js",
-    "main.js.map": "/SimpleWays/static/js/main.c61e067d.chunk.js.map",
+    "main.js": "/SimpleWays/static/js/main.3975b43b.chunk.js",
+    "main.js.map": "/SimpleWays/static/js/main.3975b43b.chunk.js.map",
     "runtime-main.js": "/SimpleWays/static/js/runtime-main.acb02414.js",
     "runtime-main.js.map": "/SimpleWays/static/js/runtime-main.acb02414.js.map",
     "static/js/2.9d96288b.chunk.js": "/SimpleWays/static/js/2.9d96288b.chunk.js",
     "static/js/2.9d96288b.chunk.js.map": "/SimpleWays/static/js/2.9d96288b.chunk.js.map",
     "index.html": "/SimpleWays/index.html",
-    "precache-manifest.79db861215e115a7953c6e59b6ce4a76.js": "/SimpleWays/precache-manifest.79db861215e115a7953c6e59b6ce4a76.js",
+    "precache-manifest.9639c5b4f5295c189d87713c514aabbe.js": "/SimpleWays/precache-manifest.9639c5b4f5295c189d87713c514aabbe.js",
     "service-worker.js": "/SimpleWays/service-worker.js",
     "static/css/main.f3c45046.chunk.css.map": "/SimpleWays/static/css/main.f3c45046.chunk.css.map",
     "static/js/2.9d96288b.chunk.js.LICENSE.txt": "/SimpleWays/static/js/2.9d96288b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.acb02414.js",
     "static/js/2.9d96288b.chunk.js",
     "static/css/main.f3c45046.chunk.css",
-    "static/js/main.c61e067d.chunk.js"
+    "static/js/main.3975b43b.chunk.js"
   ]
 }
