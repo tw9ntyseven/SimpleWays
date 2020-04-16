@@ -29,15 +29,15 @@ function Home() {
                                         <div className="cards">
                                             <div className="card">
                                             <i class="fas fa-map-signs icon"></i>
-                                            <a href="/maps" className="cardTitle">Просмотр заведений поблизости</a>
+                                            <Link to="/maps" className="cardTitle">Просмотр заведений поблизости</Link>
                                             </div>
                                             <div className="card">
                                             <i class="fas fa-road icon"></i>
-                                                <a href="/maps" className="cardTitle">Актуальное отображение пробок</a>
+                                                <Link to="/maps" className="cardTitle">Актуальное отображение пробок</Link>
                                             </div>
                                             <div className="card">
                                             <i class="fas fa-street-view icon"></i>
-                                            <a href="/maps" className="cardTitle">Изучайте панорманый вид дорог</a>
+                                            <Link to="/maps" className="cardTitle">Изучайте панорманый вид дорог</Link>
                                             </div>
                                         </div>
                                         <a href="/maps" className="slide-route">перейти к карте &#10095;</a>

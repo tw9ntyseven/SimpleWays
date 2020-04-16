@@ -46,6 +46,10 @@ class HeadBar extends Component {
                         <i className="fas fa-sign-in-alt" style={{marginRight: '5px'}}></i>
                         {this.state.text}
                     </Link>
+                    <Link to="/">
+                    <i class="fas fa-home" style={{marginRight: '5px'}}></i>
+                    Главная
+                    </Link>
                     <Link to="/maps">
                         <i className="fas fa-map" style={{marginRight: '5px'}}></i>
                         Карта

@@ -72,6 +72,10 @@ class sign extends Component {
                             <i className="fas fa-sign-in-alt"></i>
                             {this.state.text}
                         </Link>
+                    <Link to="/">
+                        <i class="fas fa-home" style={{marginRight: '5px'}}></i>
+                        Главная
+                    </Link>
                         <Link to="/maps">
                             <i className="fas fa-map"></i>
                             Карта
@@ -84,6 +88,10 @@ class sign extends Component {
                             <i className="far fa-newspaper"></i>
                             Новости
                         </Link>
+                        <Link to="/corona">
+                        <i class="fas fa-virus" style={{marginRight: '5px'}}></i>
+                        О COVID-19
+                    </Link>
                     </Menu>
                     <div className="header-title">
                         <Link to="/" className="header-title_logo">Simple<span style={{color: "#E66A08", fontWeight: "bold"}}>Ways</span></Link>

@@ -65,7 +65,7 @@ export class ways extends Component {
                             placeholder="Введите номер маршрута"
                             value={this.state.numWay}
                             onChange={this.handlenumWay}/>
-                        <button className="ways-button button">
+                        <button className="ways-button">
                             <i class="fas fa-search"></i>
                         </button>
                         <span className="ways-radio_block">
