@@ -106,7 +106,7 @@ function Home() {
 
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Switch history={HashRouter}>
                 <Route path="/" exact={true} component={Home}/>
                 <Route path="/sign" exact={true} component={Sign}/>
