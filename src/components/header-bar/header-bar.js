@@ -16,10 +16,10 @@ class HeadBar extends Component {
                 <div className="header-bar">
                     <div className="header-bar_menu">
                         <Link to="/" className="header-bar_logo">Simple<span style={{color: "#E66A08", fontWeight: "bold"}}>Ways</span></Link>
-                        <a href="/maps">
+                        <Link to="/maps">
                             <i className="fas fa-map" style={{marginRight: '5px'}}></i>
                             Карта
-                        </a>
+                        </Link>
                         <Link to="/ways">
                             <i className="fas fa-bus" style={{marginRight: '5px'}}></i>
                             Маршруты
@@ -46,10 +46,10 @@ class HeadBar extends Component {
                         <i className="fas fa-sign-in-alt" style={{marginRight: '5px'}}></i>
                         {this.state.text}
                     </Link>
-                    <a href="/maps">
+                    <Link to="/maps">
                         <i className="fas fa-map" style={{marginRight: '5px'}}></i>
                         Карта
-                    </a>
+                    </Link>
                     <Link to="/ways">
                         <i className="fas fa-bus" style={{marginRight: '5px'}}></i>
                         Маршруты
