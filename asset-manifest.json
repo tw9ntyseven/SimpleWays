@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SimpleWays/static/css/main.f3c45046.chunk.css",
+    "main.js": "/SimpleWays/static/js/main.539a2a73.chunk.js",
+    "main.js.map": "/SimpleWays/static/js/main.539a2a73.chunk.js.map",
+    "runtime-main.js": "/SimpleWays/static/js/runtime-main.acb02414.js",
+    "runtime-main.js.map": "/SimpleWays/static/js/runtime-main.acb02414.js.map",
+    "static/js/2.9d96288b.chunk.js": "/SimpleWays/static/js/2.9d96288b.chunk.js",
+    "static/js/2.9d96288b.chunk.js.map": "/SimpleWays/static/js/2.9d96288b.chunk.js.map",
+    "index.html": "/SimpleWays/index.html",
+    "precache-manifest.88cc98188e9f0a2e99d50c95d2bd2b26.js": "/SimpleWays/precache-manifest.88cc98188e9f0a2e99d50c95d2bd2b26.js",
+    "service-worker.js": "/SimpleWays/service-worker.js",
+    "static/css/main.f3c45046.chunk.css.map": "/SimpleWays/static/css/main.f3c45046.chunk.css.map",
+    "static/js/2.9d96288b.chunk.js.LICENSE.txt": "/SimpleWays/static/js/2.9d96288b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acb02414.js",
+    "static/js/2.9d96288b.chunk.js",
+    "static/css/main.f3c45046.chunk.css",
+    "static/js/main.539a2a73.chunk.js"
+  ]
+}
