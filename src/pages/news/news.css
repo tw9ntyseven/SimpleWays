@@ -1,0 +1,31 @@
+.wrapperNews {
+    margin-top: 50px;
+}
+.newsTitle {
+    margin: 0 0 0 40px;
+}
+.content {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* search block */
+.searchNews {
+    margin-right: 40px;
+}
+.newsInput {
+    width: 300px;
+    height: 40px;
+}
+.newsButton {
+    width: 40px;
+    height: 40px;
+}
+
+/* content news block */
+
+.contentNews {
+    margin-left: 40px;
+}

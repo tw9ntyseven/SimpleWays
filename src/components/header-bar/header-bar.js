@@ -24,7 +24,7 @@ class HeadBar extends Component {
                             <i className="fas fa-bus" style={{marginRight: '5px'}}></i>
                             Маршруты
                         </Link>
-                        <Link to="#">
+                        <Link to="/news">
                             <i className="far fa-newspaper" style={{marginRight: '5px'}}></i>
                             Новости
                         </Link>
@@ -58,7 +58,7 @@ class HeadBar extends Component {
                         <i className="fas fa-bus" style={{marginRight: '5px'}}></i>
                         Маршруты
                     </Link>
-                    <Link to="#">
+                    <Link to="/news">
                         <i className="far fa-newspaper" style={{marginRight: '5px'}}></i>
                         Новости
                     </Link>

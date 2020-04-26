@@ -9,9 +9,10 @@ import Sign from './pages/sign/sign';
 import Reg from './pages/reg/reg';
 import ways from './pages/ways/ways';
 import Maps from './pages/maps/maps';
-import News from './components/news-shortcat/news';
+import NewsShortcat from './components/news-shortcat/news';
 import Corona from './pages/corona/corona';
 import Footer from './components/footer/footer';
+import News from './pages/news/news';
 
 function Home() {
     return (
@@ -97,7 +98,7 @@ function Home() {
                     </Tabs>
                 </div>
 
-                <News/>
+                <NewsShortcat/>
             </div>
             <Footer />
         </div>
@@ -113,6 +114,7 @@ function App() {
                 <Route path="/reg" exact={true} component={Reg}/>
                 <Route path="/ways" exact={true} component={ways}/>
                 <Route path="/maps" exact={true} component={Maps}/>
+                <Route path="/news" exact={true} component={News}/>
                 <Route path="/corona" exact={true} component={Corona}/>
             </Switch>
         </Router>

@@ -1,7 +1,7 @@
 import './news.css';
 import React, { Component } from 'react';
 
-export class news extends Component {
+export class newsShortcat extends Component {
     render() {
         return (
             <div className="news-wrapper">
@@ -14,4 +14,4 @@ export class news extends Component {
     }
 }
 
-export default news;
+export default newsShortcat;
