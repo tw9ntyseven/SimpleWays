@@ -8,9 +8,9 @@ const Footer = () => {
                 <Link to="/" className="header-bar_logo footerLogo">Simple<span style={{color: "#E66A08", fontWeight: "bold"}}>Ways</span></Link>
         <div className="links">
         <div className="footerSocialNetworks">
-            <Link className="footerSocialNetworksItem"><i class="fab fa-vk"></i></Link>
-            <Link className="footerSocialNetworksItem"><i class="fab fa-instagram"></i></Link>
-            <Link className="footerSocialNetworksItem"><i class="fab fa-telegram"></i></Link>
+            <a href="https://vk.com/oonehacker" className="footerSocialNetworksItem"><i class="fab fa-vk"></i></a>
+            <a href="https://www.instagram.com/tw9ntyseven/" className="footerSocialNetworksItem"><i class="fab fa-instagram"></i></a>
+            <a className="footerSocialNetworksItem"><i class="fab fa-telegram"></i></a>
             </div>
             <div className="footerLinks">
                 <Link className="footerLinkItem" to="/ways">Блог</Link>

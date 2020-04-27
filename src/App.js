@@ -41,7 +41,7 @@ function Home() {
                                             <Link to="/maps" className="cardTitle">Изучайте панорманый вид дорог</Link>
                                             </div>
                                         </div>
-                                        <a href="/maps" className="slide-route">перейти к карте &#10095;</a>
+                                        <Link to="/maps" className="slide-route">перейти к карте &#10095;</Link>
                                     </div>
                                 </div>
                         </TabPanel>
@@ -79,7 +79,7 @@ function Home() {
                                     <div className="slide-text">
                                         <span className="slide-title">Новости</span>
                                         <p className="slide-subtitle">Актуальные новости Крымcкой республики</p>
-                                        <Link to="#" className="slide-route">перейти к новостям &#10095;</Link>
+                                        <Link to="/news" className="slide-route">перейти к новостям &#10095;</Link>
                                     </div>
                                 </div>
                         </TabPanel>

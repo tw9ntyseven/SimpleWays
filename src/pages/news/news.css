@@ -1,4 +1,5 @@
 .wrapperNews {
+    width: 100%;
     margin-top: 50px;
 }
 .newsTitle {
@@ -28,4 +29,34 @@
 
 .contentNews {
     margin-left: 40px;
+}
+@media screen and (max-width: 1080px) {
+    .contentNews {
+        margin-left: 10px;
+    }
+    .newsTitle {
+        font-size: 28px;
+        margin: 0 10px 0 10px;
+    }
+    .newsInput {
+        width: 160px;
+        height: 37px;
+    }
+    .searchNews {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .newsTitle {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .newsTitle {
+        font-size: 20px;
+    }
+    .newsInput {
+        width: 130px;
+        height: 30px;
+    }
 }

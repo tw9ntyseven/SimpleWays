@@ -13,7 +13,7 @@ const mapData = {
     ],
     zoom: 12
 };
-const antIcon = <LoadingOutlined style={{ fontSize: 64, color: "#2039b3", display: "flex", justifyContent: "center", alignItems: "center" }} spin />;
+const antIcon = <LoadingOutlined style={{ fontSize: 64, color: "#2039b3", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "100px" }} spin />;
 
 class Maps extends Component {
     state = {

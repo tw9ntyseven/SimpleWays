@@ -54,7 +54,7 @@ class sign extends Component {
                                 <i className="fas fa-bus"></i>
                                 Маршруты
                             </Link>
-                            <Link to="#">
+                            <Link to="/news">
                                 <i className="far fa-newspaper"></i>
                                 Новости
                             </Link>
@@ -84,7 +84,7 @@ class sign extends Component {
                             <i className="fas fa-bus"></i>
                             Маршруты
                         </Link>
-                        <Link to="#">
+                        <Link to="/news">
                             <i className="far fa-newspaper"></i>
                             Новости
                         </Link>

@@ -26,3 +26,25 @@
     font-size: 16px;
     line-height: 1.5;
 }
+
+@media screen and (max-width: 1080px) {
+    .newsItem {
+        width: 355px;
+    }
+    .newsItemTitle {
+        font-size: 16px;
+    }
+    .newsItemSubtitle {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .newsItem {
+        width: 320px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .newsItem {
+        width: 265px;
+    }
+}
