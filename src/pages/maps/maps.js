@@ -13,7 +13,7 @@ const mapData = {
     ],
     zoom: 12
 };
-const antIcon = <LoadingOutlined style={{ fontSize: 64, color: "#2039b3", display: "flex", justifyContent: "center", alignItems: "center", marginTop: "100px" }} spin />;
+const antIcon = <LoadingOutlined style={{ width: "100%", fontSize: 64, color: "#2039b3", textAlign: "center", marginTop: "50px", zIndex: "1" }} spin />;
 
 class Maps extends Component {
     state = {
@@ -27,7 +27,7 @@ class Maps extends Component {
         return (
             <div>
                 <HeadBar/>
-                <div style={{display: "block", width: "100%", height: "95vh", marginTop: "50px"}}>
+                <div style={{display: "block", width: "100%", height: "95vh"}}>
                 { !loaded &&  <YMaps query={{apikey: '1c80c4b3-7cec-4d86-8f33-0c2061e5f814'}} onLoad={this.onMapLoaded}>
                     <Map defaultState={mapData} style={{width: "100%", height: "95vh", marginTop: "50px"}}>
                     </Map>

@@ -1,12 +1,11 @@
 .footer {
     display: flex;
     align-items: center;
-    /* justify-content: flex-end; */
     width: 100%;
     height: 150px;
     background: #333;
     text-align: center;
-    /* overflow: hidden; */
+    z-index: 100;
 }
 .footerLogo {
     text-align: center;
@@ -61,5 +60,16 @@
         font-size: 16px;
         width: 60px;
         height: 35px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footerLogo {
+        font-size: 12px;
+    }
+    .footerLinkItem {
+        font-size: 12px;
+    }
+    .footerSocialNetworksItem {
+        font-size: 14px;
     }
 }
