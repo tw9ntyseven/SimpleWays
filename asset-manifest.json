@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SimpleWays/static/css/main.05789de8.chunk.css",
-    "main.js": "/SimpleWays/static/js/main.bb12e20f.chunk.js",
-    "main.js.map": "/SimpleWays/static/js/main.bb12e20f.chunk.js.map",
+    "main.css": "/SimpleWays/static/css/main.4ed23df1.chunk.css",
+    "main.js": "/SimpleWays/static/js/main.0d6de6e9.chunk.js",
+    "main.js.map": "/SimpleWays/static/js/main.0d6de6e9.chunk.js.map",
     "runtime-main.js": "/SimpleWays/static/js/runtime-main.acb02414.js",
     "runtime-main.js.map": "/SimpleWays/static/js/runtime-main.acb02414.js.map",
     "static/js/2.4f45398d.chunk.js": "/SimpleWays/static/js/2.4f45398d.chunk.js",
     "static/js/2.4f45398d.chunk.js.map": "/SimpleWays/static/js/2.4f45398d.chunk.js.map",
     "index.html": "/SimpleWays/index.html",
-    "precache-manifest.c80176a1d85fdf24f70e7582b7b44d2d.js": "/SimpleWays/precache-manifest.c80176a1d85fdf24f70e7582b7b44d2d.js",
+    "precache-manifest.e9ec0fc59af8247f7363f8bb5840758e.js": "/SimpleWays/precache-manifest.e9ec0fc59af8247f7363f8bb5840758e.js",
     "service-worker.js": "/SimpleWays/service-worker.js",
-    "static/css/main.05789de8.chunk.css.map": "/SimpleWays/static/css/main.05789de8.chunk.css.map",
+    "static/css/main.4ed23df1.chunk.css.map": "/SimpleWays/static/css/main.4ed23df1.chunk.css.map",
     "static/js/2.4f45398d.chunk.js.LICENSE.txt": "/SimpleWays/static/js/2.4f45398d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.acb02414.js",
     "static/js/2.4f45398d.chunk.js",
-    "static/css/main.05789de8.chunk.css",
-    "static/js/main.bb12e20f.chunk.js"
+    "static/css/main.4ed23df1.chunk.css",
+    "static/js/main.0d6de6e9.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52ddf084bf7eae96a2de895a6a9209cb",
+    "revision": "4d8241d82f3aac5eeea70a109ec2b1b3",
     "url": "/SimpleWays/index.html"
   },
   {
-    "revision": "d12e9cf95009a429f20c",
-    "url": "/SimpleWays/static/css/main.05789de8.chunk.css"
+    "revision": "ea478095aa369241ad24",
+    "url": "/SimpleWays/static/css/main.4ed23df1.chunk.css"
   },
   {
     "revision": "116b7326140fe8d57dd4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SimpleWays/static/js/2.4f45398d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d12e9cf95009a429f20c",
-    "url": "/SimpleWays/static/js/main.bb12e20f.chunk.js"
+    "revision": "ea478095aa369241ad24",
+    "url": "/SimpleWays/static/js/main.0d6de6e9.chunk.js"
   },
   {
     "revision": "1dd2ae4a5c7ad491236b",
