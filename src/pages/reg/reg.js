@@ -104,7 +104,7 @@ class reg extends Component {
                                     value={this.state.accPass}
                                     onChange={this.handleaccPassChange}/>
                             </form>
-                            <button onClick={this.handleSubmit} className="button-reg">Зарегестрироваться</button>
+                            <button onClick={this.handleSubmit} className="button-reg">Зарегистрироваться</button>
                         </div>
                     </div>
                 </div>
