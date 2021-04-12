@@ -21,7 +21,7 @@ function Home() {
             <div className="wrapper">
                 <div className="wrapper-slideshow">
                     <Tabs>
-                        <TabPanel className="slideshow">
+                        {/* <TabPanel className="slideshow">
                                 <div className="slide">
                                     <i className="far fa-map icon-map"></i>
                                     <div className="slide-text">
@@ -71,7 +71,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                        </TabPanel>
+                        </TabPanel> */}
 
                         <TabPanel>
                                 <div className="slide">
@@ -79,18 +79,32 @@ function Home() {
                                     <div className="slide-text">
                                         <span className="slide-title">Новости</span>
                                         <p className="slide-subtitle">Актуальные новости Крымcкой республики</p>
+                                        <div className="cards">
+                                            <div className="card">
+                                            <i class="fas fa-map-signs icon"></i>
+                                            <Link to="/news" className="cardTitle">Просмотр новостей о информатике</Link>
+                                            </div>
+                                            <div className="card">
+                                            <i class="fas fa-road icon"></i>
+                                                <Link to="/news" className="cardTitle">Актуальное отображение новостей о технике</Link>
+                                            </div>
+                                            <div className="card">
+                                            <i class="fas fa-street-view icon"></i>
+                                            <Link to="/news" className="cardTitle">Изучайте определения</Link>
+                                            </div>
+                                        </div>
                                         <Link to="/news" className="slide-route">перейти к новостям &#10095;</Link>
                                     </div>
                                 </div>
                         </TabPanel>
 
                         <TabList className="tablist">
-                            <Tab className="tablist_item">
+                            {/* <Tab className="tablist_item">
                                 <i className="far fa-map"></i>
                             </Tab>
                             <Tab className="tablist_item">
                                 <i className="fas fa-bus"></i>
-                            </Tab>
+                            </Tab> */}
                             <Tab className="tablist_item">
                                 <i className="far fa-newspaper"></i>
                             </Tab>
