@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34fb58b29735dde83a78dacfdf40bee9",
+    "revision": "70f237318b815ade86d82dd0c983087b",
     "url": "/SimpleWays/index.html"
   },
   {
-    "revision": "09bc1efce040ef4665d4",
+    "revision": "9147bfdcf9fc1c7c1772",
     "url": "/SimpleWays/static/css/main.ebda5079.chunk.css"
   },
   {
-    "revision": "071674494b6906af9877",
-    "url": "/SimpleWays/static/js/2.16aa3ec0.chunk.js"
+    "revision": "3d5d4e1c982d8f35df5a",
+    "url": "/SimpleWays/static/js/2.a50e42b1.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/SimpleWays/static/js/2.16aa3ec0.chunk.js.LICENSE.txt"
+    "url": "/SimpleWays/static/js/2.a50e42b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "09bc1efce040ef4665d4",
-    "url": "/SimpleWays/static/js/main.034d1afd.chunk.js"
+    "revision": "9147bfdcf9fc1c7c1772",
+    "url": "/SimpleWays/static/js/main.85b18c73.chunk.js"
   },
   {
     "revision": "28416b208b74da5f9a93",
