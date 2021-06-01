@@ -15,15 +15,15 @@ class HeadBar extends Component {
             <div>
                 <div className="header-bar">
                     <div className="header-bar_menu">
-                        <Link to="/" className="header-bar_logo">Simple<span style={{color: "#E66A08", fontWeight: "bold"}}>Tech</span></Link>
-                        {/* <Link to="/maps">
+                        <Link to="/" className="header-bar_logo">Simple<span style={{color: "#E66A08", fontWeight: "bold"}}>Ways</span></Link>
+                        <Link to="/maps">
                             <i className="fas fa-map" style={{marginRight: '5px'}}></i>
                             Карта
                         </Link>
                         <Link to="/ways">
                             <i className="fas fa-bus" style={{marginRight: '5px'}}></i>
                             Маршруты
-                        </Link> */}
+                        </Link>
                         <Link to="/news">
                             <i className="far fa-newspaper" style={{marginRight: '5px'}}></i>
                             Новости
